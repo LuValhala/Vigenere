@@ -4,6 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
+#include <time.h>
 
 int prepare_key(char * key, int keylen);
 char rotate(char c, char delta);
