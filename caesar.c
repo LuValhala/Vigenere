@@ -9,6 +9,7 @@ char rotate(char c, char delta);
 
 int main(int argc, char * argv[])
 {
+    printf("Vigenere Program \n");
     if (argc != 2) {
         printf("Usage: ./caesar n\n");
         return 1;
